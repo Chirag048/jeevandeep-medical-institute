@@ -34,7 +34,7 @@ const ImgGallary = () => {
                     original="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622970615/Jeevandeep/20180809_133822-min_1_mquvgu.jpg"
                     thumbnail="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622970615/Jeevandeep/20180809_133822-min_1_mquvgu.jpg"
                     width="1920"
-                    height="440"
+                    height="1440"
                     id="so-first"
                 >
                     {({ ref, open }) => (
@@ -42,6 +42,22 @@ const ImgGallary = () => {
                             alt="jeevandip_img"
                             style={smallItemStyles}
                             src="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622970615/Jeevandeep/20180809_133822-min_1_mquvgu.jpg"
+                            ref={ref}
+                            onClick={open}
+                        />
+                    )}
+                </Item>
+                <Item
+                    original="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622322128/Jeevandeep/3_qpvsui.jpg"
+                    thumbnail="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622322128/Jeevandeep/3_qpvsui.jpg"
+                    width="420"
+                    height="570"
+                >
+                    {({ ref, open }) => (
+                        <img
+                            alt="jeevandip_img"
+                            style={smallItemStyles}
+                            src="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622322128/Jeevandeep/3_qpvsui.jpg"
                             ref={ref}
                             onClick={open}
                         />
@@ -106,22 +122,6 @@ const ImgGallary = () => {
                             alt="jeevandip_img"
                             style={smallItemStyles}
                             src="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622322128/Jeevandeep/2_ocd37q.jpg"
-                            ref={ref}
-                            onClick={open}
-                        />
-                    )}
-                </Item>
-                <Item
-                    original="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622322128/Jeevandeep/3_qpvsui.jpg"
-                    thumbnail="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622322128/Jeevandeep/3_qpvsui.jpg"
-                    width="420"
-                    height="570"
-                >
-                    {({ ref, open }) => (
-                        <img
-                            alt="jeevandip_img"
-                            style={smallItemStyles}
-                            src="https://res.cloudinary.com/dd2mcowjv/image/upload/v1622322128/Jeevandeep/3_qpvsui.jpg"
                             ref={ref}
                             onClick={open}
                         />

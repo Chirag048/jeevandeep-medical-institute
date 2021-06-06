@@ -5,7 +5,7 @@ import { SidebarContainer, Icon, SidebarWrapper, SidebarMenu, SidebarLink, SideB
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
-        <SidebarContainer isOpen={isOpen}>
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
